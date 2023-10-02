@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="form.php">
+        <div>
+            <label for="username" name="username" id="username">username:</label>
+            <br>
+            <input type="text" placeholder="type">
+            <br> <br>
+        </div>
+        <div>
+            <label for="choose your password" name="password" id="password" class="red">choose your paasword:(minimum 8
+                character
+                required)</label>
+            <br>
+            <input type="password" placeholder="type your password" minlength="8" required> <br>
+        </div> <br>
+
+        <input type="image" id="image"
+            src="data:image/png;base64,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"
+            width="80" alt="submit">
+        <br>
+        <pre>
+                                                                       <textarea name="discuss" id="discuss"     cols="30" rows="10" placeholder=" write something about you "></textarea>
+            </pre>
+            <select name="age" id="age">
+                
+                <option value="a">select your age</option>
+                <option value="a">18</option>
+                <option value="a">19</option>
+                <option value="a">20</option>
+                <option value="a">above 20</option>
+            </select>
+    </form>
+</body>
+
+</html>
